@@ -1,0 +1,41 @@
+# 🚀 Archivos del sistema (evita subir archivos innecesarios del OS)
+.DS_Store
+Thumbs.db
+
+# 🛠️ Configuración de editores de código
+.vscode/
+.idea/
+*.log
+
+# 🔥 Archivos temporales y de caché
+*.tmp
+*.swp
+*.swo
+*.bak
+*.cache
+*.localstorage
+*.sessionstorage
+
+# 📦 Archivos de dependencias y compilación
+node_modules/
+dist/
+build/
+*.min.js
+*.min.css
+
+# 🛑 Archivos de entorno (credenciales, configuraciones privadas)
+.env
+.env.local
+
+# 🐍 Entorno virtual de Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🎨 Archivos de Git innecesarios
+*.orig
+
+# ❌ Script de validación que no necesitas en Git
+w3c_validator.py
